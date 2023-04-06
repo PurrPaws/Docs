@@ -1,0 +1,31 @@
+aside {
+  margin: 0 0 20px 20px;
+  float: right;
+}
+
+.aside-container {
+  background-color: $cpl;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-between;
+  min-width: 200px;
+
+  .aside__block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__listLabel {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: $cw;
+      background-color: $cp;
+    }
+
+    &__listValue {
+      padding-left: 10px;
+    }
+  }
+}
